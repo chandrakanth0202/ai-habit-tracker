@@ -87,13 +87,14 @@ The backend sends a POST request to OpenAI’s Chat Completion API.
 
 The response text is sent back to the frontend and displayed as a daily habit suggestion.
 
-🎥 Demo Recording
+# Demo Recording
 
 Record with  OBS:
 
 Show app in action.
 
  how AI generates habits.
+ explaination : https://drive.google.com/file/d/11eCYraWtijWyXTNm_qrfY-vWXeidTo1f/view?usp=sharing
 
 
 🧰 Tech Stack
