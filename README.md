@@ -1,4 +1,4 @@
-AI Habit Tracker
+# AI Habit Tracker
 
 An AI-powered habit suggestion app built with React Native (Expo) and a Node.js + Express backend that connects to the OpenAI API.
 It helps users discover productive daily habits using natural language AI responses.
@@ -17,7 +17,7 @@ It helps users discover productive daily habits using natural language AI respon
 
 📱 Works on web, Android, and iOS.
 
-🏗️ Project Structure
+# Project Structure
 ai-habit-tracker/
 │
 ├── backend/
@@ -35,7 +35,7 @@ ai-habit-tracker/
 ├── README.md
 └── package.json
 
-⚙️ Setup Instructions
+# Setup Instructions
 1. Clone the Repository
 git clone https://github.com/<your-username>/ai-habit-tracker.git
 cd ai-habit-tracker
@@ -46,26 +46,26 @@ npm install
 node server.js
 
 
-✅ You should see:
+# You should see:
 
 ✅ Server running on http://localhost:5000
 
 3. Frontend Setup
 
-Open another terminal:
+# Open another terminal:
 
 cd ..
 npm install
 npx expo start
 
 
-Then press:
+# Then press:
 
 w → to open on web, or
 
 scan QR code in Expo Go app to run on mobile.
 
-🔑 Environment Variables
+# Environment Variables
 
 In your frontend, create a .env file (optional if using backend proxy):
 
@@ -76,7 +76,7 @@ In your backend, replace the hardcoded key or use:
 
 Authorization: `Bearer ${process.env.OPENAI_API_KEY}`
 
-💡 How It Works
+ # How It Works
 
 The React Native frontend calls the backend endpoint:
 
@@ -89,13 +89,12 @@ The response text is sent back to the frontend and displayed as a daily habit su
 
 🎥 Demo Recording
 
-Record with Loom or OBS:
+Record with  OBS:
 
 Show app in action.
 
-Explain how AI generates habits.
+ how AI generates habits.
 
-Mention your use of OpenAI + Expo + Express.
 
 🧰 Tech Stack
 
